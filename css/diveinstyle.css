@@ -1,0 +1,88 @@
+body
+{
+        margin:0;
+        padding: 0;
+        font-family:sans-serif;
+        background: linear-gradient(rgba(0,0,0,.5), rgba(0,0,0,.5)), url("dota2.jpg");
+        background-color: (0,0,0,0.75);
+}
+
+
+.box
+{
+
+        width:300;
+        padding: 40px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: rgba(0,0,0,0.90);
+        text-align: center;
+}
+
+.box h1
+{
+        color:#FFFFFF;
+}
+
+.box input[type="text"],.box input[type="password"]
+{
+        color: #FFFFFF;
+        background:none;
+        display:block;
+        margin:20px;
+        text-align: center;
+        border:2px solid #10CDDA;
+        padding:14px 10px;
+        outline:none;
+        border-radius: 20px;
+        transition: 0.4s;
+}
+
+
+.box input[type="text"]:focus,.box input[type="password"]:focus
+{
+        width:280px;
+        border-color: #00FFBD;
+        color: #FFFFFF;
+}
+
+.box input[type="submit"]
+{
+        color: #FFFFFF;
+        background:none;
+        display:block;
+        margin:20px;
+        text-align: center;
+        border:2px solid #00FFBD;
+        padding:14px 40px;
+        outline:none;
+        border-radius: 20px;
+        transition: 0.4s;
+}
+
+.box input[type="submit"]:hover
+{
+        color: #FFFFFF;
+        background-color:#00FFBD;
+        display:block;
+        margin:20px;
+        text-align: center;
+        border:2px solid #00FFBD;
+        padding:20px 45px;
+        outline:none;
+        border-radius: 20px;
+        transition: 0.4s;
+}
+
+.box> a
+{
+        margin-top: 30px;
+        color:white;
+        text-decoration: none;
+        float: right;
+        padding: 10px 20px;
+        border-radius: 7px;
+        background-color: red;
+}
